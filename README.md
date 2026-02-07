@@ -26,7 +26,7 @@ VisionAssist is an assistive eyewear system designed for visually impaired indiv
 - **Smart Eyewear**: Equipped with a TOF laser sensor for obstacle detection and a camera for text recognition (OCR)
 - **Haptic Handband**: Provides tactile feedback through vibration patterns, making it suitable for deaf-blind users
 
-> 🎓 This project was selected for the **Annual University Exhibition** among 30+ projects.
+> 🎓 This project was selected for the **Annual University Exhibition** among 105+ projects.
 
 ### Why Vibration Instead of Sound?
 
