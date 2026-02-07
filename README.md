@@ -311,7 +311,7 @@ Special thanks to Kusal Hettiarachchi for funding support and making this projec
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Copyright (c) 2024 Ravindu Senanayake and Kusal Hettiarachchi
+Copyright (c) 2026 Ravindu Senanayake and Kusal Hettiarachchi
 
 ---
 
