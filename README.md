@@ -89,7 +89,7 @@ Traditional assistive devices use buzzers or audio alerts. VisionAssist uses **h
 │        └────────────┴────────────┴────────────────┘             │
 │                                                                 │
 └──────────────────────────────┬──────────────────────────────────┘
-                               │ ESP-NOW (Same WiFi Network)
+                               │ ESP-NOW
                                ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │ HANDBAND (ESP32-C3)                                             │
@@ -204,7 +204,7 @@ const char* password = "YOUR_WIFI_PASSWORD";
 - Both should show ✓ WiFi Connected and ✓ ESP-NOW OK
 - Access web interface at the IP shown in S3's Serial Monitor
 
-> ⚠️ Important: ESP-NOW communication only works here when both devices are connected to the same WiFi network.
+> ⚠️ Important: ESP-NOW requires both devices to operate on the same WiFi channel. Connecting both to the same WiFi network ensures automatic channel alignment.
 
 ---
 
@@ -285,7 +285,7 @@ Detailed project documentation including:
 |-----------|---------|
 | Battery Life | Continuous WiFi and TOF sensing consumes significant power |
 | TOF Range | VL53L1X effective range is ~4m max, recommended <2m for accuracy |
-| WiFi Dependency | Both devices must be on same network for ESP-NOW |
+| WiFi Dependency | Both devices must be on same WiFi channel for ESP-NOW (same network is easiest method)|
 | OCR Requires Internet | Google Cloud Vision API needs active internet connection |
 
 ---
